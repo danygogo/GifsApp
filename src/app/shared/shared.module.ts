@@ -7,6 +7,7 @@ import { SidebarComponent } from '../sidebar/sidebar.component';
 @NgModule({
   declarations: [
     SidebarComponent
+    //acá no va gifs-page?
   ],
   imports: [
     CommonModule
