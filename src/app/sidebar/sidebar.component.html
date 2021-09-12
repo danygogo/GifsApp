@@ -2,6 +2,10 @@
     <h3 class="text-light">Gifs-app</h3>
     <hr class="text-white">
     <div class= "list-group list-reset">
-      <a href="#" class = "list-group-item list-group-item-acton">Dashboard</a>
+      <ul>
+        <li *ngFor = "let resultado of historial">
+          <a href="#" class = "list-group-item list-group-item-acton">{{resultado | titlecase }}</a>
+        </li>
+      </ul>
     </div>
   </div>
