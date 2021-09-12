@@ -20,4 +20,8 @@ export class SidebarComponent {
     
   }
 
+  mostrar(resultado: string){
+    this.gifService.buscarGifs(resultado)
+  }
+
 }
